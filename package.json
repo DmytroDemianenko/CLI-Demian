@@ -1,0 +1,29 @@
+{
+  "name": "CLI-Demian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node contacts",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroDemianenko/CLI-Demian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmytroDemianenko/CLI-Demian/issues"
+  },
+  "homepage": "https://github.com/DmytroDemianenko/CLI-Demian#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "nanoid": "^3.3.3"
+  }
+}
